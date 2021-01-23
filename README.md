@@ -7,7 +7,7 @@ This repo contains the basic environment for the CSE 3901 Web Apps class in a do
 1. Download Docker
 2. Install VSCode and the `Remote - Containers` extension for VSCode
 3. Run `Remote - Containers: Rebuild and Reopen in Container` in VSCode
-4. 
+4. Connect to port 5900 with a VNC client to access VNC server
 
 ## Adding gems or apt packages
 
