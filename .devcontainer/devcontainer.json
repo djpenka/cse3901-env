@@ -19,7 +19,8 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"rebornix.Ruby",
-		"misogi.ruby-rubocop"
+		"misogi.ruby-rubocop",
+		"castwide.solargraph"
 	],
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

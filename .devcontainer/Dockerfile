@@ -25,8 +25,10 @@ RUN npm install -g npm
 RUN npm install yarn -g
 RUN /home/ubuntu/.rbenv/shims/gem install --no-document rails -v 6.0.3
 
-# Install rubocop
+# Install dev dependencies
 RUN gem install rubocop
+RUN gem install solargraph
+RUN gem install yard
 
 # Install apt packages / gems below
 # RUN apt install -y packages
